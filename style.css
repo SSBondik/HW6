@@ -5,25 +5,54 @@
 }
 
 .container {
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: aqua;
-    height: 1000px;
-    width: 1000px;
+    height: 750px;
+    width: 750px;
 }
 
 table {
     border-spacing: 0;
     padding: 0;
+    border: 5px solid black;
 }
 
-/* tbody {
-    display: block;
-} */
-
 td {
-    width: 100px;
-    height: 100px;
-    background-color: #f3dcc1;
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
     text-align: center;
-    border: 2px solid black;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.height-525 {
+    height: 525px;
+}
+
+.height-225 {
+    height: 225px;
+}
+
+.width-450 {
+    width: 450px;
+}
+
+.width-150 {
+    width: 150px;
 }
